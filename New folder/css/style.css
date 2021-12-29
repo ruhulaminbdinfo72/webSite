@@ -1,0 +1,1114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{margin: 0%;
+  padding: 0%;
+}
+section{
+    padding: 80px;
+}
+body{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#header{
+    background:linear-gradient(#00000029,#00000029), url(../image/hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 150px;
+}
+
+.PraimarymenuWrapper {
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.menu {
+    width: 690px;
+    float: left;
+}
+
+.Contact {
+    width: 300px;
+    float: left;
+}
+.PraimarymenuWrapper {
+    overflow: hidden;
+}
+
+.logo {
+    width: 175px;
+    float: left;
+    padding: 25px 0px;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.menu {
+    width: 768px;
+    float: left;
+}
+
+.Contact {
+    width: 195px;
+    float: left;
+    padding: 30px 0px;
+}
+
+ul.mainmenuitems {
+    list-style: none;
+    float: right;
+    margin-right: 115px;
+}
+
+ul.mainmenuitems li {
+    float: left;
+}
+
+ul.mainmenuitems li a {
+    display: block;
+    color: white;
+    font-family: 'Poppins';
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 30px 15px;
+    position:relative;
+}
+
+.Contact p {
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+.Contact h3 {
+    color: #dfa974;
+    font-size: 23px;
+    font-family: 'Aldrich';
+    padding-top: 10px;
+}
+ul.mainmenuitems li a:after {
+    display: block;
+    content: "";
+    width:0px;
+    height: 2px;
+    background: #dfa974;
+     transition: 0.10ms;
+}
+ul.mainmenuitems li:hover a:after{
+    width: 100%;
+}
+
+ul.mainmenuitems li:first-child a:after{
+    width: 100%;
+}
+.HeroContant {
+    text-align: center;
+    padding: 120px 0px;
+    width: 830px;
+    margin: auto;
+}
+
+.HeroContant h1 {
+    color: white;
+    font-family: 'Aldrich';
+    font-size: 70px;
+    padding-bottom: 60px;
+}
+
+button#heroBtn {
+    padding: 15px 45px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #8d8787;
+    transition: 0.3s;
+}
+
+button#heroBtn a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+button#heroBtn:hover{
+  background:#907b66;
+  cursor: pointer;
+}
+.AreWrapper {
+    overflow: hidden;
+}
+
+.LeftContant {
+    width: 550px;
+    float: left;
+    padding-top: 70px;
+}
+
+.RightImg {
+    width: 550px;
+    float: right;
+}
+.LCTitle p {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #dfa974;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.LCTitle h2 {
+    font-size: 42px;
+    font-family: 'Aldrich';
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+ #who{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #dfa974;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.LCTitle h2 {
+    font-size: 42px;
+    font-family: 'Aldrich';
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.LeftContant p {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #595959;
+    line-height: 25px;
+}
+p#AlCDescF {text-align: justify;}
+
+p#AlCDesc {
+    padding-top: 30px;
+    width: 585px;
+}
+.AreBtn {
+    padding-top: 85px;
+}
+
+.AreBtn button {
+    padding: 15px 45px;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #706f6f;
+    transition: 0.3s;
+}
+.AreBtn button:hover{
+    background: #a7adaf;
+    cursor: pointer;
+}
+.areimg {
+    float: right;
+    width: 475px;
+}
+
+.areimg img {
+    max-width: 100%;
+}
+.projectTitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projectTitle p {
+    font-size: 16px;
+    color: #dfa974;
+    font-family: 'Poppins';
+    font-weight: 600;
+    word-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.projectTitle h2 {
+    font-size: 45px;
+    font-family: 'Aldrich';
+    font-weight: 500;
+}
+.projectTitle {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.projectTitle p {
+    font-size: 16px;
+    color: #dfa974;
+    font-family: 'Poppins';
+    font-weight: 600;
+    word-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.projectTitle h2 {
+    font-size: 45px;
+    font-family: 'Aldrich';
+    font-weight: 500;
+}
+
+.ProjectWrapper {
+    overflow: hidden;
+    display: flex;
+}
+
+.SingleProject {
+    width: 350px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.SingleProject:last-child {
+    margin-right: 0px;
+}
+
+.ProjectImg img {
+    width: 100%;
+}
+.ProjectImg {
+    position: relative;
+}
+
+.ProjectInfo {
+    position: absolute;
+    bottom: 41px;
+    width: 280px;
+    text-align: center;
+    background: white;
+    left: 27px;
+}
+.ProjectImg {
+    position: relative;
+}
+
+.ProjectInfo {
+    position: absolute;
+    bottom: 12px;
+    width: 280px;
+    text-align: center;
+    background: white;
+    left: 27px;
+    transform: translateY(-455px);
+    transition: 0.5s;
+    transform-origin: top;
+}
+
+.ProjectInfo span {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #dfa974;
+    letter-spacing: 1px;
+    display: block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.ProjectInfo h3 {
+    font-family: 'Aldrich';
+    line-height: 25px;
+    padding-bottom: 16px;
+}
+.ProjectImg:hover .ProjectInfo{
+transform: translateX(0);
+ 
+ 
+
+}
+.WhatTitle span {
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #dfa974;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.WhatTitle h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Aldrich';
+}
+.WhatTitle span {
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #dfa974;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.WhatTitle h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Aldrich';
+}
+
+.WhatTitle {
+    margin-bottom: 20px;
+}
+
+.DesignWrapper {
+    overflow: hidden;
+    display: flex;
+}
+
+.SingleDesign {
+    width: 270px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.SingleDesign:last-child {
+    margin-right: 0px;
+}
+.WhatTitle span {
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #dfa974;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.WhatTitle h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Aldrich';
+}
+
+.WhatTitle {
+    margin-bottom: 20px;
+}
+
+.DesignWrapper {
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.SingleDesign {
+    width: 270px;
+    overflow: hidden;
+    margin-right: 35px;
+}
+
+.SingleDesign:last-child {
+    margin-right: 0px;
+}
+
+.DesignIcon {
+    font-size: 60px;
+    padding: 20px 0px;
+    color:#dfa974;
+}
+
+.DesTitleDesc h3 {
+    font-size: 23px;
+    font-family: 'Aldrich';
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.DesTitleDesc p {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #999;
+    text-align: justify;
+}
+.ScoreBoxWrapper {
+    overflow: hidden;
+    border-top: 1px solid #dbd1d1;
+    padding-top: 70px;
+    display: flex;
+}
+
+.SingleScore {
+    width: 270px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.SingleScore:last-child {
+    margin-right: 0px;
+}
+.score h1 {
+    font-size: 60px;
+    font-family: 'Aldrich';
+    font-weight: 900;
+    color: #dfa974;
+}
+
+.score {
+    float: left;
+    width: 100px;
+}
+
+.SCrTitle {
+    width: 140px;
+    float: right;
+    padding-top: 10px;
+}
+
+.SCrTitle h2 {
+    font-size: 20px;
+    font-family: 'Aldrich';
+    width: 150px;
+}
+section#Testimonial {
+    background: #f5f5f5;
+    position: relative;
+    
+}
+
+.TsmBox {
+    width: 100%;
+    background: white;
+  
+}
+
+.TsmBox p {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-style: italic;
+    line-height: 45px;
+    text-align: center;
+    color: #7b7171;
+    padding: 72px 0px;
+    padding-bottom: 126px;
+}
+
+.TsmImgwrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.TsmImgBox {
+    width: 70px;
+    margin-right: 30px;
+    position: relative;
+}
+.TsmImgBox:last-child{ margin-right:0px}
+.TsmImgBox img {
+    width: 100%;
+}
+.middelPhoto {
+    width: 145px;
+    top: -27px;
+    border: 4px solid #e33e5a;
+    border-radius: 100px;
+    padding: 6px;
+}
+
+.middelPhoto img {
+    max-width: 100%;
+}
+.TeamTitleBtn {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.TeamTitle span {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #dfa974;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.TeamTitle h2 {
+    font-size: 40px;
+    font-family: 'Aldrich';
+    font-weight: 400;
+}
+.TeamTitleBtn {
+    overflow: hidden;
+}
+
+.TeamTitle span {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #dfa974;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.TeamTitle h2 {
+    font-size: 40px;
+    font-family: 'Aldrich';
+    font-weight: 400;
+}
+
+.TeamBtn {
+    float: right;
+}
+.TeamBtn {
+    margin-top: -65px;
+}
+.TeamBtn button {
+    padding: 18px 50px;
+    background: transparent;
+    border: 1px solid #cacacadd;
+    border-radius: 3px;
+    transition: 0.6s;
+}
+
+.TeamBtn button a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #222222;
+    font-weight: 600;
+}
+.TeamBtn {
+    margin-top: -65px;
+}
+
+.teamWrapper {
+    overflow: hidden;
+    display: flex;
+    padding-top: 30px;
+}
+
+.Singleteam {
+    width: 360px;
+    overflow: hidden;
+    margin-right: 30px;
+    position: relative;
+}
+
+.Singleteam:last-child {
+    margin-right: 0px;
+}
+
+.Singleteam img {
+    width: 100%;
+}
+.TeamInfo {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    width: 100%;
+    background: transparent;
+   
+}
+
+.TeamInfoTitle h4 {
+    color: white;
+    font-size: 18px;
+}
+.TeamInfoTitle{border-bottom: 1px solid rgb(136, 132, 132);padding-bottom: 0px;transition: 0.3s;transform: translateY(-212px);}
+.TeamInfoTitle span {
+    color: #dfa974;
+    font-family: 'Poppins';
+}
+.TeamInfo {
+    position: absolute;
+    bottom: 0px;
+    padding: 30px 20px;
+    width: 100%;
+    padding-bottom: 0px;
+    
+   
+}
+
+.TeamInfoTitle h4 {
+    color: white;
+    font-size: 18px;
+}
+
+.TeamInfoTitle span {
+    color: #dfa974;
+    font-family: 'Poppins';
+}
+.TeamInfoDesc p {color: #9d9696;font-size: 16px;font-family: 'Poppins';
+    font-weight: 500;line-height: 25px;text-align: justify; }
+
+.TeamInfoDesc {
+    width: 323px;
+    padding-top: 0px;
+    transform: translateY(-368px);
+    transition: 0.6s;
+}
+.TeamInfoTitleFixted h4 {
+    color: white;
+    font-size: 18px;
+}
+.TeamInfoTitleFixted{
+    visibility:visible;
+     
+}
+
+.TeamInfoTitleFixted span {
+    color: #dfa974;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+ 
+
+.TeamInfoTitleFixted {
+    padding-top: 50px;
+}
+ 
+ 
+
+.TeamInfoSocial a {
+    color: white;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+.TeamInfoSocial a i {
+    font-size: 21px;
+}
+
+.TeamInfoSocial a:hover {
+    color: #dfa974;
+}
+
+.Singleteam:hover .TeamInfoTitle{
+transform: translateY(0px);
+}
+.TeamImg{
+    transition: 0.3s;
+}
+.TeamImg:hover .TeamInfo{
+    background: #171616e6;
+    padding-bottom: 30px;
+}
+.Singleteam:hover .TeamInfoDesc{
+    transform: translateY(0px);
+}
+.Singleteam:hover .TeamInfoDesc{padding-top:40px;
+transition: .4s;
+transition-timing-function:cubic-bezier(0, 0.03, 0.55, 1.07);
+ }
+
+.Singleteam:hover .TeamInfoTitle{
+    padding-bottom: 25px;
+    transition: 0.4s;
+    transition-timing-function:cubic-bezier(0, 0.03, 0.55, 1.07);
+   
+}
+.TeamInfoSocial {
+    transform: translateY(65px);
+}
+.Singleteam:hover .TeamInfoSocial {
+    transform: translateY(0px);
+    transition: 0.3s;
+}
+.Singleteam:hover .TeamInfoTitleFixted{
+    visibility:hidden;
+}
+.TeamBtn button:hover {
+    padding: 18px 60px;
+    background: #cbcfc2;
+    margin-right: 10px;
+}
+
+ 
+ #WhyChoseUs{
+     background: url(../image/why\ choose\ us.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .WhyContant {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.WhyContant span {
+    color: #dfa974;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-bottom: 40px;
+    display: block;
+}
+
+.WhyContant h2 {
+    color: white;
+    font-family: 'Aldrich';
+    font-size: 45px;
+    line-height: 60px;
+}
+.whyBtn {
+    margin-top: 40px;
+}
+.whyBtn button {
+    padding: 19px 50px;
+    font-size: 16px;
+    background: #dfa974;
+    border: none;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.whyBtn button:hover {
+    background: #777171;
+    cursor: pointer;
+}
+section#OurBlog {
+    background: #f2f2f2;
+}
+.OurBlogWrapper {
+    overflow: hidden;
+    display: flex;
+   
+}
+
+.OurSingleBlog {
+    width: 360px;
+    overflow: hidden;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+.OurBlogImg img {
+    max-width: 100%;
+    transition: 0.3s;
+}
+.OurSingleBlog:last-child {
+    margin-right: 0px;
+}
+.ourBlogInfo {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.ourBlogInfo span {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #c5c3c3;
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+a#OBlearnmr {
+    display: block;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-top: 15px;
+    position: relative;
+}
+a#OBlearnmr:before {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #dfa974;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+a#OBlearnmr:after {
+    display: inline-block;
+    content: "";
+    width:0px;
+    height: 1px;
+    background: #dfa974;
+    vertical-align: middle;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.ourBlogInfo:hover a#OBlearnmr:after{
+ width: 30px;
+
+}
+.ourBlogInfo:hover a#OBlearnmr:before{
+width: 0px;
+
+}
+
+.OurBlogImg img:hover{
+    transform: scale(1.1);
+}
+ 
+footer#footer{background:url(../image/footer-bg.jpg)}
+.copyRightContant {
+    overflow: hidden;
+   
+}
+
+.copyRightContant.container {
+     overflow: hidden;
+}
+
+.copyRightText {
+    width: 550px;
+    float: left;
+}
+
+.coryyRightF {
+    width: 550px;
+    float: right;
+}
+.copyRightContant {
+    overflow: hidden;
+    border-top: 1px solid #353434;
+}
+
+.copyRightContant.container {
+    overflow: hidden;
+   
+}
+
+.copyRightText {
+    width: 623px;
+    float: left;
+}
+
+.coryyRightF {
+    width: 400px;
+    float: right;
+}
+
+.copyRightText p {
+    color: #999;
+    font-family: 'Poppins';
+    padding: 30px 0px;
+}
+.copyRightText p span{
+    color: #ffffff;
+}
+.copyRightText p i{
+    color: #dfa974;
+}
+
+.coryyRightF ul {
+    list-style: none;
+    float: right;
+}
+
+.coryyRightF ul li {
+    float: left;
+}
+
+.coryyRightF ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: #999;
+    font-size: 16px;
+    padding: 30px 15px;
+    position: relative;
+}
+
+.coryyRightF ul li:first-child a:after{
+    content: "";
+    display: block;
+    width: 1px;
+    background: #999;
+    border: 1px solid #999;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+.FboxMail {
+    overflow: hidden;
+    border-bottom: 1px solid #636161;
+}
+
+.RedyTitle {
+    width: 550px;
+    float: left;
+}
+
+.FboxInputs {
+    width: 550px;
+    float: right;
+    padding: 70px 0px;
+    position: relative;
+}
+
+.RedyTitle h2 {
+    color: #ffffff;
+    font-size: 39px;
+    font-family: 'Aldrich';
+    padding: 70px 0px;
+}
+.FboxInputs input:first-child {
+    float: right;
+    padding: 14px;
+    width: 45%;
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #a39b9bdd;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+}
+input#submitsubmit {
+    width: 109px;
+    padding: 14px;
+    border: none;
+    background: #dfa974;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    position: absolute;
+    right: 4px;
+}
+.fboxWrapper {
+    overflow: hidden;
+    display: flex;
+    padding: 80px 0px;
+}
+
+.fboxSingle {
+    width: 260px;
+    overflow: hidden;
+}
+
+.fboxSingle:last-child {
+    margin-right: 0px;
+}
+.fLogo {
+    width: 180px;
+    float: left;
+}
+
+.FcontactDtls {
+    color: #999;
+    float: left;
+}
+
+.FooterIcon {
+    width: 200px;
+    float: left;
+    padding-top: 10px;
+}
+.FcontactDtls p {
+    font-family: 'Poppins';
+    width: 200px;
+    padding: 30px 0px;
+}
+
+.FcontactDtls p:last-child {
+    padding-top: 0px;
+}
+.FcontactDtls p {
+    font-family: 'Poppins';
+    width: 200px;
+    padding: 30px 0px;
+}
+
+.FcontactDtls p:last-child {
+    padding-top: 0px;
+}
+
+.FooterIcon a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    margin: 27px;
+    margin-left: 0px;
+    transition: 0.3s;
+}
+.FooterIcon a:hover{
+    color: #dfa974;
+}
+.fboxSingle h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+ul.fbsUl {
+    list-style: none;
+    padding: 30px 0px;
+}
+
+ul.fbsUl li {
+    line-height: 30px;
+    
+}
+
+ul.fbsUl li a {
+    display: block;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #999;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 4px 0px;
+}
+.fboxSingle p {
+    color: #999;
+    font-family: 'Poppins';
+    width: 200px;
+    padding: 30px 0px;
+}
+
+.fboxSingle p:last-child {
+    padding-top: 0px;
+}
